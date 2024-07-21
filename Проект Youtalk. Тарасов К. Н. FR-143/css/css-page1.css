@@ -1,0 +1,678 @@
+.main__wrap {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__blog-column {
+    max-width: 690px;
+}
+
+
+.main__blog-column__title h1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    max-width: 690px;
+    color: #333333;
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+.nav {
+    margin-bottom: 54px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main__blog-column__author-section {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #494949;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__img1 {
+    margin-bottom: 24px;
+}
+
+.main__blog-column__content-list h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main__blog-column__content-list {
+    max-width: 588px;
+}
+
+.main__blog-column__content-list ul {
+    padding: 0;
+    padding-left: 0px;
+}
+.main__blog-column__content-list li {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    text-decoration:underline 1px;
+    text-decoration-skip-ink: none;
+    list-style: none;
+    background: transparent url(../img/content-list-round.jpg) left center no-repeat;
+    padding-left: 37px;
+    padding-bottom: 10px;
+}
+
+.main__blog-column__content-list ul ul {
+    background: none;
+    padding-left: 25px;
+}
+
+.main__blog-column__content-list ul ul li {
+    background: none;
+    padding-left: 25px;
+    line-height: 20px;
+}
+
+.main__blog-column__h3-title {
+    max-width: 690px;
+    margin-bottom: 40px;
+}
+
+.main__blog-column__h3-title p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;    
+}
+
+.main__blog-column__h3-title h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+      
+}
+
+.main__blog-column__quot-container {
+    max-width: 690px;
+    padding-top: 34px;
+    padding-left: 30px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    background-color: #F3F7FE;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__quot-container h4 {
+    margin: 0;
+    margin-top: 8px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+}
+
+.main__blog-column__quot-container__img {
+    position: absolute;
+    transform: translate(0, -30%);
+}
+
+.main__blog-column__how-to-container {
+    max-width: 690px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__how-to-container li {
+    margin-bottom: 16px;
+}
+
+.main__blog-column__how-to-container li::marker {
+    color: #03B2A5;
+    font-size: 1.5em;
+}
+
+.main__blog-column__how-to-container h3 {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.main__blog-column__img-container-mans {
+    max-width: 690px;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__img-container-mans img {
+    margin-bottom: 16px;
+}
+
+
+.main__blog-column__img-container-mans p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin: 0;
+    color: #868686;
+}
+
+.main__blog-column__text1-container {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__text2-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__text2-container p {
+    margin: 0;
+    position: absolute;
+    max-width: 485px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    transform: translate(0, 25px);
+}
+
+.main__blog-column__img-and-text-inline {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__img-and-text-inline img {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.main__blog-column__img-and-text-inline p {
+    margin: 0;
+    display: inline-block;
+    max-width: 385px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main__blog-column__yellow-exercize {
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #FEFAEC;
+    border-radius: 16px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.main__blog-column__yellow-exercize h3 {
+    margin-top: 8px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+
+.how-to-two {
+    max-width: 593px;
+}
+
+.not-yellow-yellow-exercize {
+    background-color: #FFF3EB;
+}
+
+
+.main__blog-column__two-img-container_first {
+    display: inline-block;
+    max-width: 333px;
+    margin-right: 17px;
+}
+
+.main__blog-column__two-img-container_first:last-child {
+    margin-right: 0;
+}
+
+.main__blog-column__two-img-container_first p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main__blog-column__energy-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.not-yellow-yellow-exercize2 {
+    background-color: #03B2A51A;
+}
+
+.main__blog-column__tags {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color:#2963A3;
+    word-spacing: 8px;
+    margin-bottom: 48px;
+}
+
+.line {
+    display: block;
+    position: relative;
+    border-bottom: solid 1px #DEDEDE;
+    margin-bottom: 72px;
+    max-width: 1200px;
+    height: 1px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__lower-section {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    margin-bottom: 26px;
+}
+
+.main__lower-section__button-section {
+    max-width: 348px;
+    display: inline-block;
+
+}
+
+.main__lower-section__button-section h1 {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+
+.main__lower-section__button-section h3 {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.main__lower-section__button-section__button {
+    box-sizing: border-box;
+    padding: 20px 24px 20px 24px;
+    background-color: #16C8BB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    max-width: 238px;
+}
+
+.main__lower-section__img-block {
+    display: inline-block;
+}
+
+.main__lower-section__figure {
+    position: absolute;
+    right:0px;
+    transform: translate(0,-310px);
+}
+
+.main__wrapper-figure img {
+    width: 100%;
+}
+
+.main__aside-column {
+    max-width: 282px;
+}
+
+.main__aside-column__make_an_appointment {
+    max-width: 282px;
+    background-color: #E6F0FD;
+    border-radius: 16px;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.main__aside-column__make_an_appointment h3,h4 {
+    margin: 0;
+}
+
+.main__aside-column__make_an_appointment img {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.main__aside-column__make_an_appointment h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.main__aside-column__make_an_appointment h4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333333;
+}
+
+.main__aside-column__button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #35B3A9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color:white;
+    padding: 12px 16px 12px 16px;
+    gap: 8px;
+    border-radius: 4px;
+}
+
+.main__aside-column__recommendation-person {
+    max-width: 282px;
+    border: solid 2px #EFF5FB;
+    border-radius: 16px;
+    padding: 24px 16px 36px 16px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.main__aside-column__recommendation-person__wrap-img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.main__aside-column__recommendation-person h2 {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.main__aside-column__recommendation-person h3 {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center; 
+    margin-bottom: 4px;
+}
+
+
+.main__aside-column__recommendation-person h4 {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center; 
+    color: #A2A7B1;  
+    margin-bottom: 16px;  
+}
+
+.main__aside-column__recommendation-person h4 img {
+    transform: translate(0,-3px);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main__aside-column__recommendation-person hr {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DEDEDE;
+    height: 1px;
+    border: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.main__aside-column__recommendation-person p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.main__aside-column__recommendation-person ul {
+    margin-left: 4px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main__aside-column__recommendation-person ul li {
+    background: transparent url(../img/content-list-round.jpg) left center no-repeat;
+    background-position: -5px -1px ;
+    padding-left: 22px;
+    padding-bottom: 8px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.main__aside-column__recommendation-person ul li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.main__aside-column__recommendation-person__tag {
+    position: absolute;
+    border-radius: 6px;
+    background-color: #F3F4F8B2;
+    padding: 3px 6px 3px 6px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #333333;
+}
+
+.main__aside-column__recommendation-person__tag:nth-child(2n) {
+    transform: translateY(32px);
+}
+
+.main__aside-column__recommendation-person__tag img {
+    transform: translateY(2px);
+    margin-right: 5px;
+}
+
+.main__aside-column__promotion {
+    border-radius: 16px;
+    margin-bottom: 42px;
+    display: inline-block;
+}
+
+.main__aside-column__promotion img {
+    width: 100%;
+}
+
+.main__aside-column__promotion-video {
+    display: inline-block;
+    max-width: 282px;
+    border-radius: 24px;
+    border: 1px solid ;
+    border: solid 2px #EFF5FB;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main__aside-column__promotion-video__title {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #2963A3;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#size-18-px {
+    font-size: 19px;
+    margin-left: 4px;
+}
+
+.main__aside-column__promotion-video h3 {
+    margin: 0;
+    font-family: 1;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:#011632;
+    margin-bottom: 16px;
+}
+
+.main__aside-column__promotion-video__price {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color:#333333;
+    margin-bottom: 16px;
+}
+
+.main__aside-column__buy-button {
+    max-width: 108px;
+    margin-right: auto;
+    background-color: #35B3A9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color:white;
+    padding: 12px 23px 12px 23px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.main__blog-column__aside-round {
+    position: absolute;
+    /* transform: translate(0, 2346px); */
+    right: 0px;
+    transform: translate(0, -2800px);
+}
+
+.main__blog-column__author-section__tag {
+    color: #2963A3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    display: none;
+}
+
+.main__blog-column__content-list__1024px {
+    display: none;
+}
+
+.main__aside-column__promotion__768px {
+    display: none;
+}

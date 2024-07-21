@@ -1,0 +1,368 @@
+@media (min-width: 1025px) {
+    .main__aside-column__promotion-video {
+        padding: 32px;
+    }
+
+    .main__aside-column__promotion-video__img-present1 {
+        position: absolute;
+        transform: translate(125px, -51px);
+    }
+
+    .main__aside-column__promotion-video__img-present2 {
+        position: absolute;
+        transform: translate(159px, -38px);
+        border-bottom-right-radius: 16px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+.main__aside-column {
+    max-width: 222px;
+}
+
+.main__aside-column__promotion-video {
+    padding: 24px;
+}
+
+.main__aside-column__promotion-video__img-present1 {
+    position: absolute;
+    transform: translate(87px, -60px);
+}
+
+.main__aside-column__promotion-video__img-present2 {
+    position: absolute;
+    transform: translate(107px, -47px);
+    border-bottom-right-radius: 16px;
+}
+
+main {
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+.main__blog-column__aside-round {
+    display: none;
+}
+
+.main__blog-column__tags {
+    display: none;
+}
+
+.line {
+    display: none;
+}
+
+.main__lower-section {
+    display: none;
+}
+
+.main__wrapper-figure {
+    display: none;
+}
+
+.not-yellow-yellow-exercize2 {
+    margin-bottom: 71px;
+}
+
+.main__blog-column__author-section__tag {
+    display: inline-block;
+}
+
+.main__blog-column__content-list__1025px {
+    display: none;
+}
+
+.main__blog-column__content-list__1024px {
+    display: block;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+    .main__wrap {
+        flex-wrap: wrap;
+    }
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__aside-column {
+    max-width: 728px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main__blog-column {
+    max-width: 728px;
+}
+
+.how-to-two {
+    max-width: 728px;
+}
+
+.main__aside-column__make_an_appointment {
+    margin: 0;
+    max-width: 356px;
+    padding: 22.55px 30.5px 14.45px 30.5px;
+    margin-bottom: 36px;
+}
+
+.main__aside-column__make_an_appointment img {
+    width: 95%;
+}
+
+.main__aside-column__recommendation-person {
+    position: relative;
+    margin: 0;
+    padding-top: 16px;
+    max-width: 356px;
+    padding: 24px 52.5px 36px 52.5px;
+    margin-bottom: 36px;
+}
+
+.main__aside-column__promotion-video {
+    max-width: 356px;
+    padding: 16px 26px 4px 22px;
+}
+
+.main__aside-column__promotion-video h3 {
+    max-width: 291.6px;
+}
+
+.main__aside-column__promotion {
+    max-width: 356px;
+}
+
+.main__aside-column__promotion__img {
+    display: none;
+    
+}
+
+.main__aside-column__promotion__768px {
+    display: block;
+}
+.main__aside-column__promotion-video__img-present1 {
+    transform: translate(207px, -82px);
+}
+
+.main__aside-column__promotion-video__img-present2 {
+    transform: translate(230px, -68px);
+}
+
+.main__blog-column__img1 {
+    object-fit: contain;
+}
+
+.main__blog-column__img1 img {
+    width: 100%;
+}
+
+.main__blog-column__img-container-mans img {
+    width: 100%;
+}
+
+.main__blog-column__title h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.main__blog-column__img-and-text-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__blog-column__img-container-mans img {
+    object-fit: contain;
+}
+
+.main__blog-column__two-img-container_first {
+    max-width: 333px;
+    margin-right: 0;
+}
+
+}
+
+@media (max-width: 415px) {
+    
+
+.main {
+    max-width: 374px;
+}
+.main__blog-column__img1 {
+    object-fit: contain;
+}
+
+.main__blog-column__img1 img {
+    width: 100%;
+}
+
+.main__blog-column__img-container-mans img {
+    width: 100%;
+}
+
+.main__blog-column__title h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.main__blog-column__title {
+    margin-bottom: 8px;
+}
+
+.main__blog-column__author-section {
+    margin-bottom: 16px;
+}
+
+.main__aside-column {
+    max-width: 374px;
+}
+
+.main__blog-column {
+    max-width: 374px;
+}
+
+.main__blog-column__img-and-text-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__blog-column__img-container-mans img {
+    object-fit: contain;
+}
+
+.main__blog-column__text2-container p {
+    max-width: 374px;
+}
+
+.main__blog-column__img-and-text-inline__img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 380px;
+}
+
+.main__blog-column__img-and-text-inline img {
+    margin: 0;
+}
+
+.main__blog-column__img-and-text-inline {
+    max-width: 374px;
+}
+
+.main__blog-column__two-img-container_first {
+    margin: 0;
+}
+
+.main__blog-column__two-img-container_first__img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 235px;
+}
+
+.not-yellow-yellow-exercize2 {
+    margin-bottom: 56px;
+}
+
+.main__aside-column {
+    margin-bottom: 127px;
+}
+
+.nav__blog:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+}
+
+@media (max-width: 350px) {
+    
+
+    .main {
+        max-width: 374px;
+    }
+    
+    .main__blog-column__title h1 {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        
+    }
+    
+    .main__aside-column {
+        max-width: 288px;
+    }
+    
+    .main__blog-column {
+        max-width: 288px;
+    }
+    
+    .main__blog-column__text2-container p {
+        max-width: 288px;
+    }
+    
+    .main__blog-column__img-and-text-inline__img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 380px;
+    }
+    
+    .main__blog-column__img-and-text-inline {
+        max-width: 288px;
+    }
+    
+    .main__blog-column__two-img-container_first {
+        margin: 0;
+    }
+    
+    .main__blog-column__two-img-container_first__img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 235px;
+    }
+    
+    .not-yellow-yellow-exercize2 {
+        margin-bottom: 16px;
+    }
+    
+    .main__aside-column {
+        margin-bottom: 60px;
+    }
+
+    .main__aside-column__promotion-video__img-present1 {
+        transform: translate(135px, -82px);
+    }
+    
+    .main__aside-column__promotion-video__img-present2 {
+        transform: translate(175px, -68px);
+    }
+
+    .main__blog-column__text2-container {
+        margin-bottom: 45px;
+    }
+
+.main__blog-column__how-to-container h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;  
+}
+    }
